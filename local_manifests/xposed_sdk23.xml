@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="frameworks/base/cmds/xposed" name="candledragle/Xposed" remote="github" revision="master"/>
-  <remove-project name="art" />
+  <remove-project name="LineageOS/android_art" />
   <project path="art" name="candledragle/android_art" remote="github" revision="xposed-marshmallow"/>
 </manifest>
